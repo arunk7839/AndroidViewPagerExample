@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.c1ctech.androidviewpagerexample.SharirikActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:text="Swipe left-right to see different steps for suryanamaskar"
+        android:textStyle="bold" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager_suryanamaskar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
